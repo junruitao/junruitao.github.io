@@ -1,147 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>CV - Ocat</title>
-  <meta name="description" content="simple CV example created with HTML and CSS">
-  <meta name="author" content="Fly Nerd">
-  <link rel="icon" href="./img/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="Frank Tao" name="author" />
+  <meta content="Frank Tao's resume" name="description">
+  <title>Frank Tao's Resume</title>
+  <style type=text/css>
+    body {
+      background-color: #ffffff;
+      font-family: arial, sans-serif;
+      font-size: 0.8em;
+      line-height: 1.8em;
+    }
+
+    div#layout {
+      width: 181mm;
+      margin-top: 6ex;
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    h3 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+
+    h4 {
+      font-size: 1em;
+      font-weight: bold;
+      padding-left: 0.5em;
+      padding-top: 0.1em;
+      border-top: 1px solid #006633;
+      background-color: #e6f2ea;
+    }
+
+    ul.summary {
+      list-style-type: none
+    }
+
+    .spaceReserved {
+      white-space: pre
+    }
+
+    div.separator {
+      height: 1em;
+      border: 0;
+      border-bottom: 2px solid gray;
+    }
+
+    div.content {
+      padding-left: 8mm
+    }
+
+    span.role {
+      font-weight: bold
+    }
+
+    span.employer {
+      font-size: 0.9em
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <div>
-      <img src="./img/avatar.jpg" />
+  <div id="layout">
+    <h3>Frank Tao</h3>
+    <div>Mob: 0423 043 916(in Australia), +61 423 043 916 (overseas)</div>
+    <div>Email: <a href=mailto:junrui.tao@gmail.com>junrui.tao@gmail.com</a></div>
+    <div>LinkedIn: <a href="https://www.linkedin.com/in/frank-tao-8ba5a93/"
+        target="_blank">https://www.linkedin.com/in/frank-tao-8ba5a93/</a></div>
+    <div class="separator"></div>
+    <h4>Skills</h4>
+    <ul class="summary">
+      <li>Solid experience in
+        <ul>
+          <li>OOA, OOD, OOP and design patterns</li>
+          <li>Backend development using Java, NodeJS, C# and C++</li>
+          <li>Web front end technologies such as React, Redux and Angular</li>
+          <li>Enterprise Portal technologies such as Liferay, WebSphere</li>
+          <li>Test driven development</li>
+          <li>OpenAPI and RESTful Web Service development</li>
+          <li>Database schema design</li>
+          <li>SQL and No-SQL databases</li>
+          <li>Cloud environments such as AWS, CloudFoundry</li>
+        </ul>
+      </li>
+    </ul>
+    <h4>Strengths</h4>
+    <div class="content">
+      <ul>
+        <li>Problem analysing and problem solving</li>
+        <li>Good time management</li>
+        <li>Fast learner and dedicated worker</li>
+        <li>Self-motivated to do quality job</li>
+      </ul>
     </div>
-    <h1>Ocat Verdigris</h1>
-    <section>
-      <p>Hello! I am Ocat Verdigris. I work as interface and front-end developer. I have passion for pixel perfect, minimal and easy to use interfaces. I'm  focused, dedicated, hard-working and willing to learn in a changing and challenging environment.</p>
-      <a href="https://www.facebook.com/flynerdpl/" target="_blank">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://www.twitter.com/flynerdpl/" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://github.com/ritaly" target="_blank">
-        <i class="fab fa-github-alt"></i>
-      </a>
-      <a href="https://www.instagram.com/flynerdpl/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/ritalyczywek/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </section>
-  </header>
-  <main>
-    <section>
-      <h3>Courses & Workshops</h3>
-      <article class='course'>
-        <div class='title'>
-          <h4>Udacity: Intro to HTML and CSS</h4>
-        </div>
-        <div class="descrition">
-          <p>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>Udemy: The Web Developer Bootcamp</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>EdX: Web Programming with JavaScript</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>Django Girls: 2-Day Workshops</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn back-end development with simple blog application using Django  framework.</p>
-        </div>
-      </article>
-    </section>
-    <section>
-      <h3>Skills</h3>
-      <div class='skills'>
-        <div class='column'>
-          <h4>Good knowledge</h4>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>JavaScript ES5/6</li>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div class='column'>
-          <h4>Basic knowledge</h4>
-          <ul>
-            <li>jQuery</li>
-            <li>NodeJS</li>
-            <li>MongoDB</li>
-            <li>Django</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Languages</h4>
-          <p>🇵🇱 Polish - Native speaker</p>
-          <p>🇬🇧 English - Proficient C1/C2</p>
-          <p>🇫🇷 French - Advanced - C1</p>
-          <p>🇪🇸 Spanish - Intermediate - B1/B2</p>
-          <p>🇩🇪 German - Elementary / Communicative - A2</p>
-        </div>
+    <h4>Professional Employment & Achievements</h4>
+    <div class="content">
+      <div>
+        <strong>2010.06-Current</strong><span class="role" style="padding-left:9mm">Senior Developer</span> @
+        <span class="employer">
+          <a href="https://education.nsw.gov.au/" target="_blank">Department of Education, NSW</a>
+        </span>
       </div>
-    </section>
-
-    <section>
-      <h3>Education</h3>
-      <article>
-        <div class='school'>
-          <span>2015-2018</span> <strong>Octocats tech academy</strong>
-        </div>
-        <div class="descrition">
-          Bechelor Degree of Octorobotics
-        </div>
-      </article>
-      <article>
-        <div class='school'>
-          <span>2012-2015</span> <strong>Underwater kittens high school</strong>
-        </div>
-        <div>
-          Main subject: Cathemathics
-        </div>
-      </article>
-    </section>
-    <section>
-      <h3>Experience</h3>
-      <article>
-        <div class='job-title'>
-          <span>03.2018 - 06.2018</span> <strong>Tentacles Company</strong><br> <strong>Position:</strong> Web developer Intern
-        </div>
-        <div>
-          <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript / jQuery</p>
-          <ul class="job-description">
-            <li>Develop web application for Octopoda departments</li>
-            <li>Implement UI (front-end site) based on received graphic design and requirements</li>
-            <li>Co-operate with the back-end team </li>
-          </ul>
-        </div>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <p>Created by: <a href="https://www.flynerd.pl/">@flynerd</a>  / <a href="https://www.linkedin.com/in/ritalyczywek/">LinkedIn</a> / 2018 </p>
-  </footer>
+      <strong>Responsibilities</strong>
+      <ul>
+        <li>Requirement Analyse, System Design, Database Design for NSW vocational education and training applications
+        </li>
+        <li>Coding, Unit Test, Integration Test</li>
+        <li>Production support / maintenance for 15 applications</li>
+      </ul>
+      <strong>Achievements</strong>
+      <ul>
+        <li>Introdue new techonologies such as React and set up development environment </li>
+        <li>Identify & fix PROD memory/performance issues such as permgen space error</li>
+        <li>Implement parallel processing to speed up TGA import process 10 times</li>
+        <li>Enhance SAP webservice Transport Security</li>
+      </ul>
+      <div>
+        <strong>2010.03-2010.06</strong><span class="role" style="padding-left:9mm">Senior Java Developer</span> @
+        <span class="employer">
+          <a href="http://Immi.gov.au" target="_blank">DIAC(Department of Immigration and Citizenship), Australia</a>
+        </span>
+      </div>
+      <strong>Responsibilities</strong>
+      <ul>
+        <li>Portlet Design, System Design, Database Design</li>
+        <li>Coding, Unit Test, Integration Test</li>
+        <li>Production support</li>
+      </ul>
+      <div>
+        <strong>2009.07-2010.01</strong><span class="role" style="padding-left:9mm">Senior Technology Specialist</span>
+        @
+        <span class="employer">
+          <a href="https://telstra.com.au/" target="_blank">Telstra, Australia</a>
+        </span>
+      </div>
+      <strong>Responsibilities</strong>
+      <ul>
+        <li>Service Oriented Interface Design, System Design, Database Design</li>
+        <li>Coding, Unit Test, Integration Test</li>
+        <li>Production support</li>
+      </ul>
+      <strong>Achievements</strong>
+      <ul>
+        <li>Simplify Ejb3 unit testing</li>
+        <li>Simplify OSB configuration with Python script</li>
+      </ul>
+      <div>
+        <strong>2007.05-2009.07</strong><span class="role" style="padding-left:9mm">Senior Analyst Programmer</span> @
+        <span class="employer">
+          <a href="http://det.nsw.edu.au/" target="_blank">DET, NSW</a>
+        </span>
+      </div>
+      <strong>Responsibilities</strong>
+      <ul>
+        <li>System Design, Database Design for NSW public school applications</li>
+      </ul>
+      <strong>Achievements</strong>
+      <ul>
+        <li>Introduce/Integrate Spring/Struts2 to existing Struts/Ejb application </li>
+        <li>Simplify development process by optimising build script</li>
+      </ul>
+      <div>
+        <strong>2006.05-2007.04</strong><span class="role" style="padding-left:9mm">Senior Java Developer</span> @
+        <span class="employer">
+          Dot Communications
+        </span>
+      </div>
+      <strong>Responsibilities</strong>
+      <ul>
+        <li>Develop internet services management platform</li>
+      </ul>
+      <strong>Achievements</strong>
+      <ul>
+        <li>Imporving preformance by optimising Hibernate query</li>
+        <li>Improving security by introducing token based authentication</li>
+      </ul>
+      <div>
+        <strong>2005.10-2006.04</strong><span class="role" style="padding-left:9mm">Software Development
+          Consultant</span>
+        @
+        <span class="employer">
+          Fuel Advance, North Sydney
+        </span>
+      </div>
+      <strong>Responsibilities</strong>
+      <ul>
+        <li>Develop internet services using C#, ActiveRecord, NHibernate, NVelocity</li>
+      </ul>
+      <strong>Achievements</strong>
+      <ul>
+        <li>Improving response by generating voucher and tax invoice in pdf format and deliver via email usnig iText</li>
+      </ul>
+      <div>
+        <strong>1995.9-2005.09</strong><span class="role" style="padding-left:9mm">Senior Developer</span> @
+        <span class="employer">
+          <a href="https://www.icbc.com.cn/" target="_blank">
+            Industrial and Commercial Bank of China</a>
+        </span>
+      </div>
+      <strong>Responsibilities</strong>
+      <ul>
+        <li>Requirement Analyse, System Design, Database Design
+        </li>
+        <li>Develop banking applications for personal/business customers for Mainframe as well as unix server using Java, C/C++, IBM Assembler, Colbol</li>
+      </ul>
+      <strong>Achievements</strong>
+      <ul>
+        <li>Won severla special awards for contributions in technologies</li>
+        <li>Implement tools/libraries to improve devepment process</li>
+        <li>Diagnose/Fix mutiple mainframe production performance issues</li>
+        <li>Improve security by improving password processing</li>
+      </ul>
+    </div>
+    <h4>Education</h4>
+    <div class="content">
+      <ul>
+        <li class="spaceReserved">1995 Master of Computer Science Chengdu Institute of Computer Application, Chinese
+          Academy of Sciences, China</li>
+        <li class="spaceReserved">1992 Bachelor of Computer Science Yanshan University, China</li>
+      </ul>
+    </div>
+    <h4>Interests</h4>
+    <div class="content">
+      <ul>
+        <li>Competitive Programming</li>
+        <li>Growing Plants</li>
+        <li>Table Tennis</li>
+      </ul>
+    </div>
+  </div>
 </body>
+
 </html>
